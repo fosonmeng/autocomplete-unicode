@@ -1,0 +1,32 @@
+{
+  "name": "autocomplete-unicode",
+  "main": "lib/autocomplete-unicode",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fosonmeng/autocomplete-unicode.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.189.0 <2.0.0"
+  },
+  "dependencies": {
+    "download": "^7.1.0",
+    "fuzzaldrin": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-apm": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
