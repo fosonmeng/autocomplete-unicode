@@ -5,7 +5,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:fosonmeng/autocomplete-unicode.git"
+    "url": "https://github.com/fosonmeng/autocomplete-unicode.git"
   },
   "license": "MIT",
   "engines": {
